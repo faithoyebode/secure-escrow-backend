@@ -36,8 +36,8 @@ AppDataSource.initialize()
   .then(() => {
     console.log("Data Source has been initialized!");
     app.listen(PORT, () => {
-      console.log(`Server running on port ${PORT}`);
-      console.log(`API Documentation available at http://localhost:${PORT}/api-docs`);
+      console.log(`Server running on url - https://secure-escrow-backend.onrender.com/api`);
+      console.log(`API Documentation available at https://secure-escrow-backend.onrender.com/api-docs`);
     });
   })
   .catch((error) => console.error("Error during Data Source initialization", error));

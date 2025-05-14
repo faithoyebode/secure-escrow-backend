@@ -47,7 +47,7 @@ npm run seed
 npm run dev
 ```
 
-The API will be available at `http://localhost:8000/api`
+The API will be available at `https://secure-escrow-backend.onrender.com/api`
 
 ## API Documentation
 
