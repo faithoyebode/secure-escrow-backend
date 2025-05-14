@@ -99,14 +99,6 @@ const seedDatabase = async () => {
         sellerId: seller2.id
       },
       {
-        name: "Smart Watch",
-        description: "Fitness tracking and notifications on your wrist",
-        price: 149.99,
-        image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd6b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80",
-        category: "electronics",
-        sellerId: seller2.id
-      },
-      {
         name: "Professional DSLR Camera",
         description: "24.1 Megapixel DSLR camera with 18-55mm lens",
         price: 899.99,
@@ -130,14 +122,6 @@ const seedDatabase = async () => {
         description: "Adjustable office chair with lumbar support",
         price: 249.99,
         image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80",
-        category: "furniture",
-        sellerId: seller1.id
-      },
-      {
-        name: "Wooden Coffee Table",
-        description: "Handcrafted coffee table made from sustainable wood",
-        price: 399.99,
-        image: "https://images.unsplash.com/photo-1595500381751-d934db3cc924?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80",
         category: "furniture",
         sellerId: seller1.id
       },
@@ -202,14 +186,6 @@ const seedDatabase = async () => {
         image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80",
         category: "books",
         sellerId: seller1.id
-      },
-      {
-        name: "Science Fiction Collection",
-        description: "Box set of best-selling science fiction novels",
-        price: 89.99,
-        image: "https://images.unsplash.com/photo-1531901599143-df8826d9f534?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80",
-        category: "books",
-        sellerId: seller2.id
       }
     ];
     
